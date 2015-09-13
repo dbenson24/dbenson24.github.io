@@ -1,0 +1,20 @@
+#wrapper {
+    margin: auto;
+}
+
+#profile {
+    overflow: hidden;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+}
+
+#wrapper img {
+    width: 100%;
+    margin-top: -150px;
+}
+
+#content {
+    margin: auto;
+    text-align:center;
+}
