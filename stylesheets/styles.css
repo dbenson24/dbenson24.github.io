@@ -63,3 +63,29 @@ h3 {
     background: #ecf0f1;
     font-size: 20px;
 }
+
+hr:after {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    content: "";
+    bottom: -5px;
+    left: 50%;
+    margin-left: -6px;
+    background-color: #3366FF;
+    border-radius: 6px;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    padding: 0;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid #7e3009;
+    margin: auto;
+    margin-bottom: 50px;
+    max-width: 80%;
+    position: relative;
+}
