@@ -13,6 +13,12 @@ body {
 h1, h2, h3 {
     padding: 10px;
 }
+
+#bio {
+    width: 80%;
+    margin: auto;
+}
+
 #profile {
     overflow: hidden;
     width: 600px;
@@ -66,7 +72,7 @@ hr:after {
     bottom: -5px;
     left: 50%;
     margin-left: -6px;
-    background-color: #3366FF;
+    background-color: #6699CC;
     border-radius: 6px;
 }
 hr {
@@ -76,7 +82,7 @@ hr {
     border-bottom: none;
     border-right: none;
     border-left: none;
-    border-top: 1px solid #7e3009;
+    border-top: 1px solid #612103;
     margin: auto;
     margin-bottom: 50px;
     max-width: 80%;
