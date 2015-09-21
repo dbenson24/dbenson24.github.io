@@ -4,37 +4,29 @@
     font-family: Courier;
     padding: 15px;
 }
-
 body {
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
 }
-
-h1,
-h2,
-h3 {
+h1, h2, h3 {
     padding: 10px;
 }
-
 #profile {
     overflow: hidden;
     width: 600px;
     height: 400px;
     margin: auto;
 }
-
 #wrapper img {
     max-width: 100%;
     margin-top: -150px;
 }
-
 #wrapper {
     margin: auto;
     text-align: center;
 }
-
 ul {
     width: 80%;
     list-style-position: inside;
@@ -42,7 +34,6 @@ ul {
     list-style: none;
     padding: 0;
 }
-
 .resume li {
     text-align: center;
     border-bottom: solid;
@@ -54,24 +45,19 @@ ul {
     -ms-transition: font-size 0.2s ease, background-color 0.6s ease;
     transition: font-size 0.2s ease, background-color 0.6s ease;
 }
-
 li:last-child {
     border: none;
 }
-
 li:hover {
-    background: #ecf0f1;
+    background: #dde3e4;
     font-size: 20px;
 }
-
 .complete:hover {
-    background: #33CC33;
+    background: rgba(115, 230, 101, 0.67);
 }
-
 .taking:hover {
-    background:#0099FF;
+    background: rgba(83, 175, 236, 0.67);
 }
-
 hr:after {
     position: absolute;
     width: 12px;
@@ -83,7 +69,6 @@ hr:after {
     background-color: #3366FF;
     border-radius: 6px;
 }
-
 hr {
     display: block;
     height: 1px;
@@ -97,18 +82,16 @@ hr {
     max-width: 80%;
     position: relative;
 }
-
 .linkButton {
-	background-color:#599bb3;
-	display:block;
-	color:#000000;
-	font-size:20px;
-	font-weight:bold;
-	padding:13px 32px;
-	text-decoration:none;
-	margin: 10px auto;
+    background-color: rgba(87, 197, 237, 0.66);
+    display: block;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 13px 32px;
+    text-decoration: none;
+    margin: 10px auto;
 }
 .linkButton:hover {
-	background-color:#408c99;
+    background-color: rgba(7, 138, 185, 0.66);
 }
-
