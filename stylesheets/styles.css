@@ -20,14 +20,15 @@ h3 {
 
 #profile {
     overflow: hidden;
-    width: 600px;
-    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 200px;
     margin: auto;
+    
 }
 
 #wrapper img {
     max-width: 100%;
-    margin-top: -150px;
 }
 
 #wrapper {
