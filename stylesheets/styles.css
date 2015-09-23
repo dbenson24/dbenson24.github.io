@@ -1,10 +1,10 @@
 #wrapper {
     margin: auto;
-    background: #bdc3c7;
-    font-family: Courier;
     padding: 15px;
 }
 body {
+    background: #bdc3c7;
+    font-family: Courier;
     height: 100%;
     width: 100%;
     margin: 0;
