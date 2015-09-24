@@ -107,7 +107,7 @@ hr {
 .linkButton:hover {
     background-color: rgba(7, 138, 185, 0.66);
 }
-@media only screen and (min-width: 650px) {
+@media all and (min-width: 650px) {
     /* For desktops and larger devices: */
     #profilepic {
         width: 400px;
