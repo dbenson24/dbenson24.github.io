@@ -57,7 +57,7 @@ ul {
 .resume li {
     text-align: center;
     border-bottom: solid;
-    border-bottom-width: 1px;
+    border-width: 1px;
     padding: 10px;
     -webkit-transition: font-size 0.2s ease, background-color 0.6s ease;
     -moz-transition: font-size 0.2s ease, background-color 0.6s ease;
@@ -125,5 +125,9 @@ hr {
     .linkButton {
         margin: 10px 0px;
         display: inline-block;
+    }
+    #skills li {
+        display: inline-block;
+        border: none;
     }
 }
