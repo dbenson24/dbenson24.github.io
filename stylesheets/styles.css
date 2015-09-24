@@ -100,14 +100,14 @@ hr {
     font-weight: bold;
     padding: 13px 32px;
     text-decoration: none;
-    width: 12em;
+    width: 30%;
     display: block;
     margin: 10px auto;
 }
 .linkButton:hover {
     background-color: rgba(7, 138, 185, 0.66);
 }
-@media all and (min-width: 650px) {
+@media all and (min-width: 1024px) {
     /* For desktops and larger devices: */
     #profilepic {
         width: 400px;
