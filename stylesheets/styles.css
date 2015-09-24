@@ -8,28 +8,26 @@ html {
 body {
     background: #bdc3c7;
     background: linear-gradient(to bottom, #ffffff 0%,#bdc3c7 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Courier;
     height: 100%;
     width: 100%;
     margin: 0;
     padding: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 h1, h2, h3 {
     padding: 10px;
 }
-
 #bio {
     width: 80%;
     margin: auto;
 }
-
-#profile {
+#profilepic {
     overflow: hidden;
-    max-width: 400px;
-    max-height: 400px;
-    border-radius: 200px;
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
     margin: auto;
     
 }
@@ -97,14 +95,27 @@ hr {
 }
 .linkButton {
     background-color: rgba(87, 197, 237, 0.66);
-    display: block;
     color: #000000;
     font-size: 20px;
     font-weight: bold;
     padding: 13px 32px;
     text-decoration: none;
+    width: 12em;
+    display: block;
     margin: 10px auto;
 }
 .linkButton:hover {
     background-color: rgba(7, 138, 185, 0.66);
+}
+@media only screen and (min-width: 650px) {
+    /* For desktops and larger devices: */
+    #profilepic {
+        width: 400px;
+        height: 400px;
+        border-radius: 200px;
+    }
+    .linkButton {
+        margin: 10px 0px;
+        display: inline-block;
+    }
 }
