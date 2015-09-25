@@ -129,5 +129,9 @@ hr {
     #skills li {
         display: inline-block;
         border: none;
+        min-width: 5%;
+    }
+    #skills {
+        margin-bottom: 50px;
     }
 }
